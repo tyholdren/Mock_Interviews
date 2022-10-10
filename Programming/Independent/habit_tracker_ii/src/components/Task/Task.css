@@ -1,0 +1,7 @@
+.task {
+  display: flex;
+}
+
+.task p {
+margin-right: 10px;
+}

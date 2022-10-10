@@ -1,0 +1,7 @@
+.navigation-container {
+  display: flex;
+}
+
+.navigation-container h1 {
+  margin-right: 100px; 
+}
