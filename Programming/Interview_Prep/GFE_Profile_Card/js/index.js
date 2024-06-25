@@ -34,7 +34,7 @@ class ProfileCard {
 
     $githubSocial.src = './img/github.svg';
     $githubSocial.alt = 'socials image';
-    $linkedInSocial.src = './img/linkedIn.svg';
+    $linkedInSocial.src = './img/linkedin.svg';
     $linkedInSocial.alt = 'socials image';
     $instagramSocial.src = './img/logo-instagram.svg';
     $instagramSocial.alt = 'socials image';
@@ -65,6 +65,7 @@ class ProfileCard {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  console.log('dom is loaded');
   const profileCard = new ProfileCard();
   profileCard.initialize();
 });
